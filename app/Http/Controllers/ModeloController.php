@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Modelo; // Alterado para evitar conflito com o namespace PHP
 use App\Services\ModeloService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
-class ModelController extends Controller
+class ModeloController extends Controller
 {
   protected $modeloService;
   
